@@ -1,0 +1,37 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.aapje
+{
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.gesloten 
+{
+    display: none;
+}
+
+.open 
+{
+    display: none;
+}
+
+.active 
+{
+    display: block;
+}
