@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function kleur_aanpassen() {
+
+            var h1Element = document.getElementsByTagName("h1")[0];
+
+
+            if (h1Element) {
+
+                h1Element.style.color = "red";
+
+
+                h1Element.textContent = "Inhoud aangepast!";
+            } else {
+
+                console.error("Het h1-element kon niet worden gevonden.");
+            }
+        }
+    </script>
+
+</body>
+ <button onclick="kleur_aanpassen()">Klik om kleur aan te passen</button>
+ <h1>Titel van de pagina</h1>
+</html>
